@@ -24,10 +24,11 @@
     <meta name="salesforce-mask-redirects" content="<?php echo getenv('SALESFORCE_MASK_REDIRECTS');?>">
 	<link href="https://<?php echo getenv('SALESFORCE_COMMUNITY_URL');?>/servlet/servlet.loginwidgetcontroller?type=css" rel="stylesheet" type="text/css" />
     <script src="https://<?php echo getenv('SALESFORCE_COMMUNITY_URL');?>/servlet/servlet.loginwidgetcontroller?type=javascript_widget" async defer></script>
+    <style>.sfid-button-label{color:black!important}</style>
   </head>
   
   <body>
-  	<div id="sign-in-link" style="position: absolute; top: 20px;right: 20px;"></div>
+  	<div id="sign-in-link" style="position: absolute; top: 500px;right: 1150px;"></div>
     <header>
       <div class="masthead-elements-row-1">
         <div class="element-left"></div>
